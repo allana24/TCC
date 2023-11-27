@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    padding-right: 3rem;
+}
+
+.card {
+    width: 260px;
+    height: 280px;
+    border: #ccc solid;
+    border-top: 6px solid #e8c339;
+    padding: 1rem;
+    line-height: 1rem;
+    
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+ .font {
+    font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+}
+
+.data {
+  background-color: #fc8d0e;
+  padding: 0.5rem;
+  
+
+}
